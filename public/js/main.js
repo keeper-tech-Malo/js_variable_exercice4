@@ -1,25 +1,13 @@
-// let nom = "N";
-// let prenom = "M";
-// let ville = prompt("quel'est ta ville?",);
-
-// alert (` ${ville}`);
-// console.log(nom,prenom);
-
-// exo 2 
+let number = 2
+let number2 = 12
 
 
-let nom = "caliskan";
-let prenom = "ayhan";
-let depart = "bruxelles";
-let destination = "paris";
-let phrase = `Le voyage de ${depart} vers ${destination} a été enregistré au nom de ${nom} ${prenom}`;
-console.log(phrase);
+console.log(`${number} + ${number2}) = ${number + number2}`);
+console.log(`${number} + ${number2}) = ${number + number2}`);
+console.log(`${number} / ${number2}) = ${number / number2}`);
 
-2 b
-let nom = prompt('un nom?');
-let prenom = prompt('un prénom?');
-let depart = prompt('une ville de départ?');
-let destination = prompt('une ville de déstination ?');
-
-let phrase = `Le voyage de ${depart} vers ${destination} a été enregistré au nom de ${nom} ${prenom}`;
-console.log(phrase);
+// exo2
+let prenom = prompt ('ton prenom ?')
+let age = prompt('ton àage ?')
+let agenombre = parseInt(age)
+console.log(`${prenom} a ${age + 3} ans dans 3 ans`)
